@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './app.tsx';
 import bridge from '@vkontakte/vk-bridge';
 
-bridge.send("VKWebAppInit");
+bridge.send('VKWebAppInit');
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

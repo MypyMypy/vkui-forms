@@ -1,4 +1,9 @@
-import { AdaptivityProvider, AppRoot, ConfigProvider, useAppearance } from '@vkontakte/vkui';
+import {
+  AdaptivityProvider,
+  AppRoot,
+  ConfigProvider,
+  useAppearance,
+} from '@vkontakte/vkui';
 import { MainPage } from '@/pages/main';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import '@vkontakte/vkui/dist/vkui.css';
