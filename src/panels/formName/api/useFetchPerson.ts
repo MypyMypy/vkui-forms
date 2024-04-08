@@ -1,7 +1,7 @@
-import { useQuery } from '@tanstack/react-query';
-import { fetchPerson } from '.';
 import { useState } from 'react';
-import { PersonI } from '../types';
+import { useQuery } from '@tanstack/react-query';
+import { fetchPerson } from './fetchPerson';
+import type { PersonI } from './types';
 
 export const useFetchPerson = (value: string) => {
   const [responsePerson, setResponsePerson] = useState<PersonI | null>(null);

@@ -1,9 +1,10 @@
-import { Button, FormItem, Group, Panel, PanelHeader } from '@vkontakte/vkui';
 import { useEffect, useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { schema } from '../model';
 import { useFetchFact } from '../api';
+
+import { Button, FormItem, Group, Panel, PanelHeader } from '@vkontakte/vkui';
 
 export const FormFact: React.FC<{ id: string }> = ({ id }) => {
   const [value, setValue] = useState('');

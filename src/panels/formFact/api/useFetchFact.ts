@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
-import { fetchFact } from '.';
-import { FactI } from '../types';
+import { fetchFact } from './fetchFact';
+import type { FactI } from './types';
 
 export const useFetchFact = () => {
   const fact = useQuery({

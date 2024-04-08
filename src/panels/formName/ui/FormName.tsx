@@ -11,7 +11,7 @@ import {
 } from '@vkontakte/vkui';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { useDebounce } from '@/shared';
+import { useDebounce } from '@/shared/hooks';
 import { useFetchPerson } from '../api';
 import { schema } from '../model';
 import { FETCH_DELAY } from '../model';

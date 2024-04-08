@@ -10,8 +10,8 @@ import {
 import { useState } from 'react';
 import { panels } from '../model/panels';
 
-import { FormFact } from '@/widgets/formFact';
-import { FormName } from '@/widgets/formName';
+import { FormFact } from '@/panels/formFact';
+import { FormName } from '@/panels/formName';
 
 export const MainPage: React.FC = () => {
   const platform = usePlatform();
